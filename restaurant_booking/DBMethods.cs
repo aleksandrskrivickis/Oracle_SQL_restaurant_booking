@@ -11,7 +11,7 @@ namespace Restaurant_booking
 
             //EZ Connect Format is [hostname]:[port]/[service_name]
             //Examine working TNSNAMES.ORA entries to find these values
-            "Data Source=obiwan.cms.gre.ac.uk:1521; Pooling=false;";
+            "Data Source=obiwan.cms.gre.ac.uk/obiwan:1521; Pooling=false;";
 
             //Create a connection to Oracle
 
